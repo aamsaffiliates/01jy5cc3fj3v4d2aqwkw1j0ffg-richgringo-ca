@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Rich Gringo Casino - Exclusively to Canadian Players | Licensed & Trusted</title>
+    <meta name="description" content="Learn about Rich Gringo Casino - Canada's premier online casino established in 2025. Licensed by Anjouan, owned by Igloo Ventures, featuring 3000+ games, exclusive Canadian bonuses, and 15% weekly cashback.">
+    
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="About Rich Gringo Casino - Exclusively to Canadian Players">
+    <meta property="og:description" content="Discover Rich Gringo Casino's story, exclusive Canadian benefits, and comprehensive gaming experience with 3000+ games and premium bonuses.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://richgringo.ca.com/about">
+    <meta property="og:image" content="/images/about-hero.webp">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="/images/favicon.png">
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Original CSS -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- About Page CSS -->
+    <link rel="stylesheet" href="about-styles.css">
+    
+    <!-- Tailwind Config -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'casino-green': '#0D4F3C',
+                        'casino-deep-green': '#064E3B',
+                        'casino-emerald': '#10B981',
+                        'casino-yellow': '#FCD34D',
+                        'casino-gold': '#F59E0B',
+                        'casino-red': '#EF4444',
+                        'casino-blue': '#1E3A8A',
+                        'mexican-pink': '#EC4899',
+                        'mexican-orange': '#F97316',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-casino-deep-green text-white overflow-x-hidden">
+    <!-- Floating Elements -->
+    <div class="floating-elements">
+        <div class="floating-card"><i class="fas fa-spades"></i></div>
+        <div class="floating-chip">C$</div>
+        <div class="floating-dice"><i class="fas fa-dice"></i></div>
+        <div class="floating-cactus"><i class="fas fa-seedling"></i></div>
+        <div class="floating-sun"><i class="fas fa-sun"></i></div>
+        <div class="floating-card-2"><i class="fas fa-heart"></i></div>
+        <div class="floating-confetti">✨</div>
+        <div class="floating-chip-2">🎰</div>
+        <div class="floating-piñata">🪅</div>
+        <div class="floating-pepper">🌶️</div>
+        <div class="floating-maracas">🪇</div>
+        <div class="floating-sombrero">🤠</div>
+        <div class="floating-guitar">🎸</div>
+        <div class="floating-taco">🌮</div>
+        <div class="floating-lime">🍋</div>
+        <div class="floating-avocado">🥑</div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="fixed top-0 w-full bg-casino-deep-green/95 backdrop-blur-sm z-50 border-b border-casino-yellow/20">
+        <div class="container mx-auto px-4 py-3">
+            <div class="flex items-center justify-between">
+                <div class="logo-glow">
+                    <a href="/">
+                        <img class="h-16" src="/images/logo.svg" alt="Richgringo logo" />
+                    </a>
+                </div>
+                <div class="hidden md:flex space-x-6">
+                    <a href="/" class="nav-link">Home</a>
+                    <a href="#games" class="nav-link">Games</a>
+                    <a href="#bonuses" class="nav-link">Bonuses</a>
+                    <a href="/about" class="nav-link">About</a>
+                    <a href="#support" class="nav-link">Support</a>
+                </div>
+                <button onclick="redirectToGo()" class="cta-button-small">Join Now</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="mt-12 min-h-screen flex items-center relative overflow-hidden">
+        <div class="absolute inset-0 bg-gradient-to-br from-casino-deep-green via-casino-green to-emerald-800 opacity-90"></div>
+        <div class="container mx-auto px-4 py-20 relative z-10">
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <div class="text-center lg:text-left">
+                    <h1 class="hero-title text-4xl md:text-6xl lg:text-7xl font-bold mb-6">
+                        About Rich Gringo
+                        <span class="block text-green-100 glow-text">Casino</span>
+                    </h1>
+                    
+                    <div class="about-intro-box mb-8 p-6 bg-white/95 rounded-xl border-2 border-casino-yellow shadow-2xl backdrop-blur-sm text-casino-blue">
+                        <div class="text-center">
+                            <div class="text-casino-gold text-lg font-semibold mb-2">🎉 ESTABLISHED 2025 🎉</div>
+                            <div class="text-2xl font-bold text-green-500 mb-2">Licensed & Trusted</div>
+                            <div class="text-lg text-casino-emerald mb-2">Owned by Igloo Ventures</div>
+                            <div class="text-lg text-casino-gold mb-3">3000+ Premium Games</div>
+                            <div class="text-casino-emerald font-semibold">Exclusively for Canadian Players</div>
+                        </div>
+                    </div>
+                    
+                    <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+                        <button onclick="redirectToGo()" class="cta-button">
+                            <i class="fas fa-rocket mr-2"></i>Start Playing Now
+                        </button>
+                        <button onclick="scrollToHighlights()" class="cta-button-secondary">
+                            <i class="fas fa-info-circle mr-2"></i>View Details
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="relative">
+                    <div class="hero-image-container">
+                        <img src="images/about-gringo.png" alt="Rich Gringo Casino About" class="hero-image rounded-xl shadow-2xl" style="aspect-ratio: 1/1;">
+                        <div class="absolute inset-0 bg-gradient-to-t from-casino-blue/50 to-transparent rounded-xl"></div>
+                        <div class="absolute bottom-4 left-4 right-4 text-center">
+                            <div class="bg-white/90 rounded-lg p-3 backdrop-blur-sm">
+                                <p class="text-casino-blue font-bold">Canada's Most Trusted Online Casino</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Spotlight Effect -->
+        <div class="spotlight"></div>
+        <div class="mexican-decorations">
+            <div class="decoration-1">🌵</div>
+            <div class="decoration-2">🎉</div>
+            <div class="decoration-3">🪅</div>
+            <div class="decoration-4">🌶️</div>
+            <div class="decoration-5">🎊</div>
+        </div>
+    </section>
+
+    <!-- Casino Highlights Table -->
+    <section id="highlights" class="py-20 bg-gradient-to-b from-casino-deep-green to-casino-green">
+        <div class="container mx-auto px-4">
+            <h2 class="section-title text-center mb-16 text-casino-yellow">Casino Highlights</h2>
+            <div class="bg-white/95 rounded-2xl p-8 shadow-2xl">
+                <div class="max-w-6xl mx-auto">
+                    <div class="highlights-table-container">
+                        <table class="highlights-table w-full">
+                            <thead>
+                                <tr class="table-header">
+                                    <th class="table-cell-header">Feature</th>
+                                    <th class="table-cell-header">Details</th>
+                                    <th class="table-cell-header">Benefits for Canadians</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="table-row">
+                                    <td class="table-cell-feature">
+                                        <i class="fas fa-certificate text-casino-gold mr-2"></i>
+                                        <strong>Gaming License</strong>
+                                    </td>
+                                    <td class="table-cell">Licensed by Anjouan Gaming Authority</td>
+                                    <td class="table-cell">Regulated gaming with player protection</td>
+                                </tr>
+                                <tr class="table-row-alt">
+                                    <td class="table-cell-feature">
+                                        <i class="fas fa-building text-casino-emerald mr-2"></i>
+                                        <strong>Ownership</strong>
+                                    </td>
+                                    <td class="table-cell">Igloo Ventures - Reputable Gaming Company</td>
+                                    <td class="table-cell">Canadian-focused operations & support</td>
+                                </tr>
+                                <tr class="table-row">
+                                    <td class="table-cell-feature">
+                                        <i class="fas fa-calendar-alt text-casino-gold mr-2"></i>
+                                        <strong>Established</strong>
+                                    </td>
+                                    <td class="table-cell">2025 - Brand New Platform</td>
+                                    <td class="table-cell">Latest technology & modern features</td>
+                                </tr>
+                                <tr class="table-row-alt">
+                                    <td class="table-cell-feature">
+                                        <i class="fas fa-gamepad text-casino-emerald mr-2"></i>
+                                        <strong>Game Library</strong>
+                                    </td>
+                                    <td class="table-cell">3000+ Games Available</td>
+                                    <td class="table-cell">Massive variety for all preferences</td>
+                                </tr>
+                                <tr class="table-row">
+                                    <td class="table-cell-feature">
+                                        <i class="fas fa-dice text-casino-gold mr-2"></i>
+                                        <strong>Table Games</strong>
+                                    </td>
+                                    <td class="table-cell">Blackjack, Roulette, Baccarat, Poker</td>
+                                    <td class="table-cell">Classic casino experience online</td>
+                                </tr>
+                                <tr class="table-row-alt">
+                                    <td class="table-cell-feature">
+                                        <i class="fas fa-slot-machine text-casino-emerald mr-2"></i>
+                                        <strong>Slot Games</strong>
+                                    </td>
+                                    <td class="table-cell">Video Slots, Classic Slots, Jackpots</td>
+                                    <td class="table-cell">Progressive jackpots in CAD currency</td>
+                                </tr>
+                                <tr class="table-row">
+                                    <td class="table-cell-feature">
+                                        <i class="fas fa-bolt text-casino-gold mr-2"></i>
+                                        <strong>Megaways Games</strong>
+                                    </td>
+                                    <td class="table-cell">Latest Megaways Technology</td>
+                                    <td class="table-cell">Up to 117,649 ways to win</td>
+                                </tr>
+                                <tr class="table-row-alt">
+                                    <td class="table-cell-feature">
+                                        <i class="fas fa-video text-casino-emerald mr-2"></i>
+                                        <strong>Live Dealer</strong>
+                                    </td>
+                                    <td class="table-cell">Real-time Gaming with Live Dealers</td>
+                                    <td class="table-cell">Authentic casino atmosphere</td>
+                                </tr>
+                                <tr class="table-row">
+                                    <td class="table-cell-feature">
+                                        <i class="fas fa-zap text-casino-gold mr-2"></i>
+                                        <strong>Instant Games</strong>
+                                    </td>
+                                    <td class="table-cell">Quick Play Games & Scratch Cards</td>
+                                    <td class="table-cell">Fast entertainment & instant wins</td>
+                                </tr>
+                                <tr class="table-row-alt">
+                                    <td class="table-cell-feature">
+                                        <i class="fas fa-chart-line text-casino-emerald mr-2"></i>
+                                        <strong>Crash Games</strong>
+                                    </td>
+                                    <td class="table-cell">Modern Crash & Multiplier Games</td>
+                                    <td class="table-cell">Exciting new gaming format</td>
+                                </tr>
+                                <tr class="table-row">
+                                    <td class="table-cell-feature">
+                                        <i class="fas fa-football-ball text-casino-gold mr-2"></i>
+                                        <strong>Sportsbook</strong>
+                                    </td>
+                                    <td class="table-cell">Comprehensive Sports Betting</td>
+                                    <td class="table-cell">Bet on NHL, CFL & international sports</td>
+                                </tr>
+                                <tr class="table-row-alt">
+                                    <td class="table-cell-feature">
+                                        <i class="fas fa-gift text-casino-emerald mr-2"></i>
+                                        <strong>Welcome Bonus</strong>
+                                    </td>
+                                    <td class="table-cell">250% up to C$1,700 + 150 Free Spins</td>
+                                    <td class="table-cell">Exclusive offer for Canadian players only</td>
+                                </tr>
+                                <tr class="table-row">
+                                    <td class="table-cell-feature">
+                                        <i class="fas fa-star text-casino-gold mr-2"></i>
+                                        <strong>Free Spins</strong>
+                                    </td>
+                                    <td class="table-cell">150 Free Spins on Mummyland Treasurehunt</td>
+                                    <td class="table-cell">No deposit required, included with bonus</td>
+                                </tr>
+                                <tr class="table-row-alt">
+                                    <td class="table-cell-feature">
+                                        <i class="fas fa-sync text-casino-emerald mr-2"></i>
+                                        <strong>Reload Bonuses</strong>
+                                    </td>
+                                    <td class="table-cell">Weekly & Weekend Reload Bonuses</td>
+                                    <td class="table-cell">Ongoing rewards for regular players</td>
+                                </tr>
+                                <tr class="table-row">
+                                    <td class="table-cell-feature">
+                                        <i class="fas fa-money-bill-wave text-casino-gold mr-2"></i>
+                                        <strong>Cashback</strong>
+                                    </td>
+                                    <td class="table-cell">Up to 15% Weekly Cashback</td>
+                                    <td class="table-cell">Get money back on losses every week</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Rich Gringo Story -->
+    <section class="py-20 bg-gradient-to-b from-casino-deep-green to-casino-green">
+        <div class="container mx-auto px-4">
+            <h2 class="section-title text-center mb-16 text-casino-yellow">Our Story</h2>
+            <div class="bg-white/95 rounded-2xl p-8 shadow-2xl">
+                <div class="max-w-4xl mx-auto">
+                    <div class="story-content">
+                        <div class="story-section mb-12">
+                            <h3 class="story-heading">Welcome to Rich Gringo Casino</h3>
+                            <p class="story-text">
+                                Rich Gringo Casino emerged in 2025 as Canada's most exciting online gaming destination, bringing together the vibrant spirit of Mexican festivities with world-class casino entertainment. Founded by the reputable Igloo Ventures, our platform was specifically designed to cater to the unique preferences and needs of Canadian players.
+                            </p>
+                        </div>
+
+                        <div class="story-section mb-12">
+                            <h3 class="story-heading">Licensed & Regulated Excellence</h3>
+                            <p class="story-text">
+                                Operating under a license from the Anjouan Gaming Authority, Rich Gringo Casino maintains the highest standards of security, fairness, and responsible gaming. Our commitment to regulatory compliance ensures that Canadian players can enjoy their favorite games with complete peace of mind, knowing their funds and personal information are protected by industry-leading security measures.
+                            </p>
+                        </div>
+
+                        <div class="story-section mb-12">
+                            <h3 class="story-heading">Unmatched Gaming Variety</h3>
+                            <p class="story-text">
+                                With over 3,000 carefully curated games, Rich Gringo Casino offers an unparalleled gaming experience. Our extensive library includes everything from classic table games like blackjack and roulette to the latest video slots featuring Megaways technology. Live dealer games provide an authentic casino atmosphere, while our instant games and crash games offer quick thrills for players seeking fast-paced action.
+                            </p>
+                        </div>
+
+                        <div class="story-section mb-12">
+                            <h3 class="story-heading">Sports Betting Excellence</h3>
+                            <p class="story-text">
+                                Beyond casino games, our comprehensive sportsbook allows Canadian players to bet on their favorite teams and sports. From NHL hockey and CFL football to international soccer and tennis, we offer competitive odds and extensive betting markets. Our live betting platform ensures you never miss the action, with real-time odds updates and in-play betting options.
+                            </p>
+                        </div>
+
+                        <div class="story-section">
+                            <h3 class="story-heading">Exclusive Canadian Benefits</h3>
+                            <p class="story-text">
+                                Rich Gringo Casino is proud to offer exclusive benefits tailored specifically for Canadian players. Our welcome bonus of 250% up to C$1,700 plus 150 free spins is available exclusively to Canadian residents. We support CAD currency throughout the platform, offer Interac e-Transfer for convenient deposits and withdrawals, and provide customer support that understands the Canadian gaming landscape. Our weekly cashback program ensures that even when luck isn't on your side, you still receive up to 15% back on your losses.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Rich Gringo -->
+    <section class="py-20 bg-gradient-to-b from-casino-deep-green to-casino-green">
+        <div class="container mx-auto px-4">
+            <h2 class="section-title text-center mb-16 text-casino-yellow">Why Choose Rich Gringo Casino?</h2>
+            <div class="bg-white/95 rounded-2xl p-8 shadow-2xl">
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <div class="benefit-card">
+                        <div class="benefit-icon">
+                            <i class="fas fa-maple-leaf text-4xl"></i>
+                        </div>
+                        <h3 class="benefit-title">Canadian-First Approach</h3>
+                        <p class="benefit-text">Designed specifically for Canadian players with CAD currency, local payment methods, and Canadian customer support.</p>
+                    </div>
+                    
+                    <div class="benefit-card">
+                        <div class="benefit-icon">
+                            <i class="fas fa-shield-alt text-4xl"></i>
+                        </div>
+                        <h3 class="benefit-title">Licensed & Secure</h3>
+                        <p class="benefit-text">Fully licensed by Anjouan Gaming Authority with 256-bit SSL encryption protecting all transactions and data.</p>
+                    </div>
+                    
+                    <div class="benefit-card">
+                        <div class="benefit-icon">
+                            <i class="fas fa-trophy text-4xl"></i>
+                        </div>
+                        <h3 class="benefit-title">Premium Game Selection</h3>
+                        <p class="benefit-text">Over 3,000 games from top providers including slots, table games, live dealers, and exclusive titles.</p>
+                    </div>
+                    
+                    <div class="benefit-card">
+                        <div class="benefit-icon">
+                            <i class="fas fa-gift text-4xl"></i>
+                        </div>
+                        <h3 class="benefit-title">Exclusive Bonuses</h3>
+                        <p class="benefit-text">Generous welcome package and ongoing promotions available exclusively to Canadian players.</p>
+                    </div>
+                    
+                    <div class="benefit-card">
+                        <div class="benefit-icon">
+                            <i class="fas fa-headset text-4xl"></i>
+                        </div>
+                        <h3 class="benefit-title">24/7 Support</h3>
+                        <p class="benefit-text">Round-the-clock customer support via live chat, email, and phone with Canadian-based agents.</p>
+                    </div>
+                    
+                    <div class="benefit-card">
+                        <div class="benefit-icon">
+                            <i class="fas fa-bolt text-4xl"></i>
+                        </div>
+                        <h3 class="benefit-title">Fast Payouts</h3>
+                        <p class="benefit-text">Quick withdrawal processing with multiple payment options including Interac e-Transfer and Bitcoin.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="py-20 bg-gradient-to-b from-casino-deep-green to-casino-green">
+        <div class="container mx-auto px-4">
+            <div class="bg-white/95 rounded-2xl p-8 shadow-2xl">
+                <div class="max-w-4xl mx-auto text-center">
+                    <h2 class="section-title mb-8 text-casino-yellow">Ready to Join the Fiesta?</h2>
+                    <p class="text-xl text-casino-blue mb-8 leading-relaxed">
+                        Experience the excitement of Rich Gringo Casino today! Join thousands of Canadian players who have already discovered the ultimate online gaming destination. With our exclusive welcome bonus, extensive game library, and commitment to player satisfaction, your casino adventure starts here.
+                    </p>
+                    <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                        <button onclick="redirectToGo()" class="cta-button text-lg px-8 py-4">
+                            <i class="fas fa-rocket mr-2"></i>Claim Your C$1,700 Bonus
+                        </button>
+                        <button onclick="redirectToGo()" class="cta-button-secondary text-lg px-8 py-4">
+                            <i class="fas fa-gamepad mr-2"></i>Explore Games
+                        </button>
+                    </div>
+                    <p class="text-sm text-gray-600 mt-6">
+                        <i class="fas fa-exclamation-triangle text-casino-gold mr-2"></i>
+                        18+ Only. Please gamble responsibly. Terms and conditions apply.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-casino-deep-green border-t border-casino-yellow/20 py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4 text-casino-emerald">Rich Gringo Casino</h3>
+                    <p class="text-gray-400 mb-4">Canada's premier online casino established in 2025. Licensed, trusted, and exclusively designed for Canadian players.</p>
+                    <div class="flex space-x-4">
+                        <i class="fab fa-facebook text-casino-emerald hover:text-white cursor-pointer"></i>
+                        <i class="fab fa-twitter text-casino-emerald hover:text-white cursor-pointer"></i>
+                        <i class="fab fa-instagram text-casino-emerald hover:text-white cursor-pointer"></i>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-4">Quick Links</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="/" class="hover:text-white">Home</a></li>
+                        <li><a href="#games" class="hover:text-white">Games</a></li>
+                        <li><a href="#bonuses" class="hover:text-white">Bonuses</a></li>
+                        <li><a href="/about" class="hover:text-white text-casino-yellow">About</a></li>
+                        <li><a href="#support" class="hover:text-white">Support</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-4">Support</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li>Live Chat: 24/7</li>
+                        <li>Email: support@richgringo.ca.com</li>
+                        <li>Phone: 1-800-RICH-CA</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-4">Responsible Gaming</h4>
+                    <div class="text-gray-400 space-y-2">
+                        <p><i class="fas fa-exclamation-triangle text-casino-gold mr-2"></i>18+ Only</p>
+                        <p>Problem Gambling Help:</p>
+                        <p>1-866-531-2600</p>
+                        <p>gamblersanonymous.ca</p>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-casino-yellow/20 mt-8 pt-8 text-center text-gray-400">
+                <p>&copy; 2025 Rich Gringo Casino. All rights reserved. | Terms & Conditions | Privacy Policy | Responsible Gaming</p>
+                <p class="mt-2 text-sm">Licensed by Anjouan Gaming Authority. Owned and operated by Igloo Ventures.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        // Redirect function
+        function redirectToGo() {
+            window.location.href = '/go';
+        }
+
+        // Scroll to highlights function
+        function scrollToHighlights() {
+            document.getElementById('highlights').scrollIntoView({
+                behavior: 'smooth'
+            });
+        }
+
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+
+        // Parallax effect
+        window.addEventListener('scroll', () => {
+            const scrolled = window.pageYOffset;
+            const parallax = document.querySelector('.spotlight');
+            if (parallax) {
+                const speed = scrolled * 0.5;
+                parallax.style.transform = `translateY(${speed}px)`;
+            }
+        });
+
+        // Animate elements on scroll
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('animate-in');
+                }
+            });
+        }, observerOptions);
+
+        // Observe elements for animation
+        document.querySelectorAll('.benefit-card, .story-section').forEach(el => {
+            observer.observe(el);
+        });
+    </script>
+</body>
+</html>
