@@ -1,0 +1,788 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RichGringo Casino - 250% Welcome Bonus Up to C$1,700 + 150 Free Spins | Premium Online Casino Canada</title>
+    <meta name="description" content="Join RichGringo Casino for an exclusive 250% Welcome Bonus up to C$1,700 + 150 Free Spins on Mummyland Treasurehunt. Experience premium slots, live dealers, and 15% weekly cashback. Licensed Canadian casino with secure payments.">
+    
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="RichGringo Casino - 250% Welcome Bonus Up to C$1,700 + 150 Free Spins">
+    <meta property="og:description" content="Premium Canadian online casino with exclusive bonuses, top slots, and secure gaming. Join now for spectacular rewards!">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://richgringo.ca.com">
+    <meta property="og:image" content="/images/hero.webp">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Tailwind Config -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'casino-green': '#0D4F3C',
+                        'casino-deep-green': '#064E3B',
+                        'casino-emerald': '#10B981',
+                        'casino-yellow': '#FCD34D',
+                        'casino-gold': '#F59E0B',
+                        'casino-red': '#EF4444',
+                        'casino-blue': '#1E3A8A',
+                        'mexican-pink': '#EC4899',
+                        'mexican-orange': '#F97316',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-casino-deep-green text-white overflow-x-hidden">
+    <!-- Floating Elements -->
+    <div class="floating-elements">
+        <div class="floating-card"><i class="fas fa-spades"></i></div>
+        <div class="floating-chip">C$</div>
+        <div class="floating-dice"><i class="fas fa-dice"></i></div>
+        <div class="floating-cactus"><i class="fas fa-seedling"></i></div>
+        <div class="floating-sun"><i class="fas fa-sun"></i></div>
+        <div class="floating-card-2"><i class="fas fa-heart"></i></div>
+        <div class="floating-confetti">✨</div>
+        <div class="floating-chip-2">🎰</div>
+        <!-- Add these new floating elements -->
+        <div class="floating-piñata">🪅</div>
+        <div class="floating-pepper">🌶️</div>
+        <div class="floating-maracas">🪇</div>
+        <div class="floating-sombrero">🤠</div>
+        <div class="floating-guitar">🎸</div>
+        <div class="floating-taco">🌮</div>
+        <div class="floating-lime">🍋</div>
+        <div class="floating-avocado">🥑</div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="fixed top-0 w-full bg-casino-deep-green/95 backdrop-blur-sm z-50 border-b border-casino-yellow/20">
+        <div class="container mx-auto px-4 py-3">
+            <div class="flex items-center justify-between">
+                <div class="logo-glow">
+                    <a href="/">
+                        <img class="h-16" src="/images/logo.svg" alt="Richgringo logo" />
+                    </a>
+                </div>
+                <div class="hidden md:flex space-x-6">
+                    <a href="#home" class="nav-link">Home</a>
+                    <a href="#games" class="nav-link">Games</a>
+                    <a href="#bonuses" class="nav-link">Bonuses</a>
+                    <a href="#about" class="nav-link">About</a>
+                    <a href="#support" class="nav-link">Support</a>
+                </div>
+                <button onclick="redirectToGo()" class="cta-button-small">Join Now</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="min-h-screen flex items-center relative overflow-hidden">
+        <div class="absolute inset-0 bg-gradient-to-br from-casino-deep-green via-casino-green to-emerald-800 opacity-90"></div>
+        <div class="container mx-auto px-4 py-20 relative z-10">
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <div class="text-center lg:text-left">
+                    <h1 class="hero-title text-4xl md:text-6xl lg:text-7xl font-bold mb-6">
+                        RichGringo Casino
+                        <span class="block text-green-100 glow-text">Fiesta Fortunes</span>
+                        <span class="block text-casino-gold text-3xl md:text-4xl">Await You!</span>
+                    </h1>
+                    
+                    <div class="bonus-box mb-8 p-6 bg-white/95 rounded-xl border-2 border-casino-yellow shadow-2xl backdrop-blur-sm text-casino-blue">
+                        <div class="text-center">
+                            <div class="text-casino-gold text-lg font-semibold mb-2">🎉 EXCLUSIVE WELCOME OFFER 🎉</div>
+                            <div class="text-3xl md:text-4xl font-bold text-green-500 mb-2">250% BONUS</div>
+                            <div class="text-xl text-casino-emerald mb-2">Up to C$1,700</div>
+                            <div class="text-lg text-casino-gold mb-3">+ 150 Free Spins on Mummyland Treasurehunt</div>
+                            <div class="text-sm text-gray-600">35x wagering • 10 days to wager</div>
+                            <div class="text-casino-emerald font-semibold mt-2">+ 15% Weekly Cashback</div>
+                        </div>
+                    </div>
+                    
+                    <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+                        <button onclick="redirectToGo()" class="cta-button">
+                            <i class="fas fa-rocket mr-2"></i>Claim Bonus Now
+                        </button>
+                        <button onclick="redirectToGo()" class="cta-button-secondary">
+                            <i class="fas fa-gamepad mr-2"></i>Play Games
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="relative">
+                    <div class="hero-image-container">
+                        <img src="/images/hero.png" alt="RichGringo Casino Games" class="hero-image rounded-xl shadow-2xl">
+                        <div class="absolute inset-0 bg-gradient-to-t from-casino-blue/50 to-transparent rounded-xl"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Spotlight Effect -->
+        <div class="spotlight"></div>
+        <!-- Add after hero content -->
+        <div class="mexican-decorations">
+            <div class="decoration-1">🌵</div>
+            <div class="decoration-2">🎉</div>
+            <div class="decoration-3">🪅</div>
+            <div class="decoration-4">🌶️</div>
+            <div class="decoration-5">🎊</div>
+        </div>
+    </section>
+
+    <!-- How to Claim Bonus -->
+    <section class="py-20 bg-gradient-to-b from-casino-deep-green to-casino-green">
+        <div class="container mx-auto px-4">
+            <h2 class="section-title text-center mb-16 text-casino-yellow">How to Claim Your Bonus</h2>
+            <div class="bg-white/95 rounded-2xl p-8 shadow-2xl">
+                <div class="grid md:grid-cols-4 gap-8">
+                    <div class="step-card">
+                        <div class="step-icon">
+                            <i class="fas fa-user-plus"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-3 text-casino-emerald">Step 1</h3>
+                        <p>Create your RichGringo Casino account with valid Canadian details</p>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-icon">
+                            <i class="fas fa-credit-card"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-3 text-casino-emerald">Step 2</h3>
+                        <p>Make your first deposit using any supported payment method</p>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-icon">
+                            <i class="fas fa-gift"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-3 text-casino-emerald">Step 3</h3>
+                        <p>Receive instant 250% bonus + 150 free spins automatically</p>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-icon">
+                            <i class="fas fa-play"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-3 text-casino-emerald">Step 4</h3>
+                        <p>Start playing and enjoy your enhanced gaming experience</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Games -->
+    <section class="py-20 bg-gradient-to-b from-casino-deep-green to-casino-green">
+        <div class="container mx-auto px-4">
+            <h2 class="section-title text-center mb-16 text-casino-yellow">Featured Slot Games</h2>
+            <div class="bg-white/95 rounded-2xl p-8 shadow-2xl">
+                <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6">
+                    <div class="game-card">
+                        <img src="/images/book-of-ra.jpg" alt="Book Of Ra" class="game-image">
+                        <div class="game-overlay">
+                            <h3 class="font-bold">Book Of Ra</h3>
+                            <button onclick="redirectToGo()" class="play-btn">Play Now</button>
+                        </div>
+                    </div>
+                    <div class="game-card">
+                        <img src="/images/ripcity (1).webp" alt="RipCity" class="game-image">
+                        <div class="game-overlay">
+                            <h3 class="font-bold">RipCity</h3>
+                            <button onclick="redirectToGo()" class="play-btn">Play Now</button>
+                        </div>
+                    </div>
+                    <div class="game-card">
+                        <img src="/images/piggy-bank.svg" alt="Break the Piggy Bank" class="game-image">
+                        <div class="game-overlay">
+                            <h3 class="font-bold">Break the Piggy Bank</h3>
+                            <button onclick="redirectToGo()" class="play-btn">Play Now</button>
+                        </div>
+                    </div>
+                    <div class="game-card">
+                        <img src="/images/royalty-of-olympus.jpg" alt="Royalty Of Olympus" class="game-image">
+                        <div class="game-overlay">
+                            <h3 class="font-bold">Royalty Of Olympus</h3>
+                            <button onclick="redirectToGo()" class="play-btn">Play Now</button>
+                        </div>
+                    </div>
+                    <div class="game-card">
+                        <img src="/images/mk.jpg" alt="Magestic King" class="game-image">
+                        <div class="game-overlay">
+                            <h3 class="font-bold">Magestic King</h3>
+                            <button onclick="redirectToGo()" class="play-btn">Play Now</button>
+                        </div>
+                    </div>
+                    <div class="game-card">
+                        <img src="/images/tome.jpg" alt="Tome of Madness" class="game-image">
+                        <div class="game-overlay">
+                            <h3 class="font-bold">Tome of Madness</h3>
+                            <button onclick="redirectToGo()" class="play-btn">Play Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="py-20 bg-gradient-to-b from-casino-deep-green to-casino-green">
+        <div class="container mx-auto px-4">
+            <h2 class="section-title text-center mb-16 text-casino-yellow">About RichGringo Casino</h2>
+            <div class="bg-white/95 rounded-2xl p-8 shadow-2xl">
+                <div class="max-w-4xl mx-auto">
+                    <div class="content-card mb-12">
+                        <p class="text-lg leading-relaxed mb-6">
+                            RichGringo Casino brings the vibrant spirit of Mexican festivities to the Canadian online gaming scene. Established with a commitment to providing exceptional entertainment, this premium gaming destination combines traditional casino excitement with modern innovation. The platform features an extensive collection of slot games, live dealer experiences, and progressive jackpots that cater to both casual players and high-rollers.
+                        </p>
+                        <p class="text-lg leading-relaxed mb-6">
+                            Licensed and regulated under strict Canadian gaming authorities, RichGringo Casino maintains the highest standards of security and fair play. The platform utilizes advanced encryption technology to protect player information and financial transactions. Random number generators ensure all games operate with complete fairness and transparency.
+                        </p>
+                        <p class="text-lg leading-relaxed">
+                            The casino's unique Mexican theme creates an immersive gaming atmosphere where players can enjoy authentic entertainment while pursuing substantial rewards. From classic three-reel slots to sophisticated video slots with multiple bonus features, the game library spans various themes and volatility levels. Live dealer games provide real-time interaction with professional dealers, creating an authentic casino experience from the comfort of home.
+                        </p>
+                    </div>
+
+                    <!-- Game Providers -->
+                    <div class="content-card mb-12">
+                        <h3 class="text-2xl font-bold mb-6 text-casino-emerald">Game Providers</h3>
+                        <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                            <div class="provider-card">Pragmatic Play</div>
+                            <div class="provider-card">NetEnt</div>
+                            <div class="provider-card">Microgaming</div>
+                            <div class="provider-card">Evolution Gaming</div>
+                            <div class="provider-card">Play'n GO</div>
+                            <div class="provider-card">Red Tiger</div>
+                            <div class="provider-card">Big Time Gaming</div>
+                            <div class="provider-card">Yggdrasil</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Payment Methods -->
+    <section class="py-20 bg-gradient-to-b from-casino-deep-green to-casino-green">
+        <div class="container mx-auto px-4">
+            <h2 class="section-title text-center mb-16 text-casino-yellow">Payment Methods</h2>
+            <div class="bg-white/95 rounded-2xl p-8 shadow-2xl">
+                <div class="max-w-6xl mx-auto">
+                    <div class="content-card mb-8">
+                        <p class="text-lg leading-relaxed mb-8">
+                            RichGringo Casino supports a comprehensive range of payment methods specifically tailored for Canadian players. The platform prioritizes security and convenience, offering instant deposits and fast withdrawals through trusted financial institutions. All transactions are processed using bank-level encryption to ensure complete safety of funds and personal information.
+                        </p>
+                        <p class="text-lg leading-relaxed">
+                            Canadian players benefit from localized payment solutions that support CAD currency, eliminating conversion fees and providing transparent transaction processing. The casino maintains partnerships with major Canadian banks and payment processors to ensure seamless financial operations.
+                        </p>
+                    </div>
+
+                    <div class="grid md:grid-cols-2 gap-8">
+                        <div class="payment-table">
+                            <h3 class="text-xl font-bold mb-4 text-casino-emerald">Deposit Methods</h3>
+                            <table class="w-full">
+                                <thead>
+                                    <tr class="border-b border-casino-emerald/30">
+                                        <th class="text-left py-2">Method</th>
+                                        <th class="text-left py-2">Min/Max</th>
+                                        <th class="text-left py-2">Time</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="border-b border-gray-600">
+                                        <td class="py-2">Visa/Mastercard</td>
+                                        <td class="py-2">C$10 / C$5,000</td>
+                                        <td class="py-2">Instant</td>
+                                    </tr>
+                                    <tr class="border-b border-gray-600">
+                                        <td class="py-2">Interac e-Transfer</td>
+                                        <td class="py-2">C$20 / C$3,000</td>
+                                        <td class="py-2">Instant</td>
+                                    </tr>
+                                    <tr class="border-b border-gray-600">
+                                        <td class="py-2">PaySafeCard</td>
+                                        <td class="py-2">C$10 / C$1,000</td>
+                                        <td class="py-2">Instant</td>
+                                    </tr>
+                                    <tr class="border-b border-gray-600">
+                                        <td class="py-2">Bitcoin</td>
+                                        <td class="py-2">C$25 / C$10,000</td>
+                                        <td class="py-2">15 mins</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <div class="payment-table">
+                            <h3 class="text-xl font-bold mb-4 text-casino-emerald">Withdrawal Methods</h3>
+                            <table class="w-full">
+                                <thead>
+                                    <tr class="border-b border-casino-emerald/30">
+                                        <th class="text-left py-2">Method</th>
+                                        <th class="text-left py-2">Min/Max</th>
+                                        <th class="text-left py-2">Time</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="border-b border-gray-600">
+                                        <td class="py-2">Bank Transfer</td>
+                                        <td class="py-2">C$50 / C$10,000</td>
+                                        <td class="py-2">1-3 days</td>
+                                    </tr>
+                                    <tr class="border-b border-gray-600">
+                                        <td class="py-2">Interac e-Transfer</td>
+                                        <td class="py-2">C$20 / C$3,000</td>
+                                        <td class="py-2">24 hours</td>
+                                    </tr>
+                                    <tr class="border-b border-gray-600">
+                                        <td class="py-2">Bitcoin</td>
+                                        <td class="py-2">C$50 / C$10,000</td>
+                                        <td class="py-2">1-2 hours</td>
+                                    </tr>
+                                    <tr class="border-b border-gray-600">
+                                        <td class="py-2">Cheque</td>
+                                        <td class="py-2">C$100 / C$5,000</td>
+                                        <td class="py-2">7-14 days</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Security Features -->
+    <section class="py-20 bg-gradient-to-b from-casino-deep-green to-casino-green">
+        <div class="container mx-auto px-4">
+            <h2 class="section-title text-center mb-16 text-casino-yellow">Security & Trust</h2>
+            <div class="bg-white/95 rounded-2xl p-8 shadow-2xl">
+                <div class="grid md:grid-cols-3 gap-8">
+                    <div class="security-card">
+                        <i class="fas fa-shield-alt text-4xl text-casino-emerald mb-4"></i>
+                        <h3 class="text-xl font-bold mb-3">SSL Encryption</h3>
+                        <p>256-bit SSL encryption protects all data transmission and financial transactions</p>
+                    </div>
+                    <div class="security-card">
+                        <i class="fas fa-certificate text-4xl text-casino-emerald mb-4"></i>
+                        <h3 class="text-xl font-bold mb-3">Licensed & Regulated</h3>
+                        <p>Fully licensed by Canadian gaming authorities with regular compliance audits</p>
+                    </div>
+                    <div class="security-card">
+                        <i class="fas fa-random text-4xl text-casino-emerald mb-4"></i>
+                        <h3 class="text-xl font-bold mb-3">Fair Gaming</h3>
+                        <p>Certified random number generators ensure fair and unbiased game outcomes</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- VIP Program -->
+    <section class="py-20 bg-gradient-to-b from-casino-deep-green to-casino-green">
+        <div class="container mx-auto px-4">
+            <h2 class="section-title text-center mb-16 text-casino-yellow">VIP Loyalty Program</h2>
+            <div class="bg-white/95 rounded-2xl p-8 shadow-2xl">
+                <div class="max-w-4xl mx-auto">
+                    <div class="content-card mb-12">
+                        <p class="text-lg leading-relaxed mb-6">
+                            The RichGringo Casino VIP program rewards loyal players with exclusive benefits and personalized service. Members advance through multiple tiers based on their gaming activity, unlocking increasingly valuable rewards and privileges. The program recognizes player dedication with cashback bonuses, exclusive promotions, and priority customer support.
+                        </p>
+                        <p class="text-lg leading-relaxed">
+                            VIP members enjoy access to exclusive tournaments, higher withdrawal limits, and personalized account management. The program includes birthday bonuses, anniversary rewards, and invitations to special events. Each tier provides enhanced benefits, creating a truly premium gaming experience for dedicated players.
+                        </p>
+                    </div>
+
+                    <div class="grid md:grid-cols-4 gap-6">
+                        <div class="vip-card bronze">
+                            <i class="fas fa-medal text-3xl mb-3"></i>
+                            <h3 class="font-bold mb-2">Bronze</h3>
+                            <p class="text-sm">5% Cashback</p>
+                            <p class="text-sm">Weekly Bonuses</p>
+                        </div>
+                        <div class="vip-card silver">
+                            <i class="fas fa-trophy text-3xl mb-3"></i>
+                            <h3 class="font-bold mb-2">Silver</h3>
+                            <p class="text-sm">10% Cashback</p>
+                            <p class="text-sm">Priority Support</p>
+                        </div>
+                        <div class="vip-card gold">
+                            <i class="fas fa-crown text-3xl mb-3"></i>
+                            <h3 class="font-bold mb-2">Gold</h3>
+                            <p class="text-sm">15% Cashback</p>
+                            <p class="text-sm">Personal Manager</p>
+                        </div>
+                        <div class="vip-card diamond">
+                            <i class="fas fa-gem text-3xl mb-3"></i>
+                            <h3 class="font-bold mb-2">Diamond</h3>
+                            <p class="text-sm">20% Cashback</p>
+                            <p class="text-sm">Exclusive Events</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bonuses Review -->
+    <section class="py-20 bg-gradient-to-b from-casino-deep-green to-casino-green">
+        <div class="container mx-auto px-4">
+            <h2 class="section-title text-center mb-16 text-casino-yellow">Bonus Programs & Promotions</h2>
+            <div class="bg-white/95 rounded-2xl p-8 shadow-2xl">
+                <div class="max-w-4xl mx-auto">
+                    <div class="content-card mb-12">
+                        <p class="text-lg leading-relaxed mb-6">
+                            RichGringo Casino offers an extensive range of bonus programs designed to maximize player value and extend gaming sessions. The welcome package provides new players with substantial bonus funds and free spins, while ongoing promotions ensure continued rewards for regular players. Each bonus comes with clearly defined terms and conditions, ensuring transparency and fair play.
+                        </p>
+                        <p class="text-lg leading-relaxed mb-8">
+                            The casino's promotional calendar includes seasonal events, tournament competitions, and special holiday bonuses. Players can participate in daily, weekly, and monthly promotions that offer various rewards including bonus cash, free spins, and exclusive prizes. The loyalty program complements these offers with additional perks and personalized bonuses based on individual gaming preferences.
+                        </p>
+
+                        <h3 class="text-2xl font-bold mb-6 text-casino-emerald">Available Bonus Types</h3>
+                        <ul class="space-y-3 mb-8">
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-casino-emerald mr-3 mt-1"></i>
+                                <span>Welcome Bonus Package with deposit matching up to 250%</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-casino-emerald mr-3 mt-1"></i>
+                                <span>Free Spins on featured slot games with no deposit required</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-casino-emerald mr-3 mt-1"></i>
+                                <span>Weekly Cashback bonuses up to 15% on net losses</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-casino-emerald mr-3 mt-1"></i>
+                                <span>Reload bonuses for existing players on subsequent deposits</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-casino-emerald mr-3 mt-1"></i>
+                                <span>Tournament entry bonuses with guaranteed prize pools</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-casino-emerald mr-3 mt-1"></i>
+                                <span>Birthday and anniversary bonuses for VIP members</span>
+                            </li>
+                        </ul>
+
+                        <h3 class="text-2xl font-bold mb-6 text-casino-emerald">Bonus Terms & Conditions</h3>
+                        <div class="overflow-x-auto">
+                            <table class="w-full border border-casino-emerald/30">
+                                <thead>
+                                    <tr class="bg-casino-emerald/20">
+                                        <th class="border border-casino-emerald/30 px-4 py-2 text-left">Bonus Type</th>
+                                        <th class="border border-casino-emerald/30 px-4 py-2 text-left">Wagering</th>
+                                        <th class="border border-casino-emerald/30 px-4 py-2 text-left">Time Limit</th>
+                                        <th class="border border-casino-emerald/30 px-4 py-2 text-left">Max Bet</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="border border-casino-emerald/30 px-4 py-2">Welcome Bonus</td>
+                                        <td class="border border-casino-emerald/30 px-4 py-2">35x</td>
+                                        <td class="border border-casino-emerald/30 px-4 py-2">10 days</td>
+                                        <td class="border border-casino-emerald/30 px-4 py-2">C$5</td>
+                                    </tr>
+                                    <tr class="bg-casino-emerald/10">
+                                        <td class="border border-casino-emerald/30 px-4 py-2">Free Spins</td>
+                                        <td class="border border-casino-emerald/30 px-4 py-2">40x</td>
+                                        <td class="border border-casino-emerald/30 px-4 py-2">7 days</td>
+                                        <td class="border border-casino-emerald/30 px-4 py-2">C$5</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="border border-casino-emerald/30 px-4 py-2">Cashback</td>
+                                        <td class="border border-casino-emerald/30 px-4 py-2">1x</td>
+                                        <td class="border border-casino-emerald/30 px-4 py-2">30 days</td>
+                                        <td class="border border-casino-emerald/30 px-4 py-2">No limit</td>
+                                    </tr>
+                                    <tr class="bg-casino-emerald/10">
+                                        <td class="border border-casino-emerald/30 px-4 py-2">Reload Bonus</td>
+                                        <td class="border border-casino-emerald/30 px-4 py-2">30x</td>
+                                        <td class="border border-casino-emerald/30 px-4 py-2">14 days</td>
+                                        <td class="border border-casino-emerald/30 px-4 py-2">C$5</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Customer Support -->
+    <section class="py-20 bg-gradient-to-b from-casino-deep-green to-casino-green">
+        <div class="container mx-auto px-4">
+            <h2 class="section-title text-center mb-16 text-casino-yellow">Customer Support</h2>
+            <div class="bg-white/95 rounded-2xl p-8 shadow-2xl">
+                <div class="grid md:grid-cols-3 gap-8">
+                    <div class="support-card">
+                        <i class="fas fa-comments text-4xl text-casino-emerald mb-4"></i>
+                        <h3 class="text-xl font-bold mb-3">Live Chat</h3>
+                        <p class="mb-4">24/7 instant support via live chat</p>
+                        <button onclick="redirectToGo()" class="support-btn">Start Chat</button>
+                    </div>
+                    <div class="support-card">
+                        <i class="fas fa-envelope text-4xl text-casino-emerald mb-4"></i>
+                        <h3 class="text-xl font-bold mb-3">Email Support</h3>
+                        <p class="mb-4">support@richgringo.ca.com</p>
+                        <p class="text-sm text-gray-400">Response within 2 hours</p>
+                    </div>
+                    <div class="support-card">
+                        <i class="fas fa-phone text-4xl text-casino-emerald mb-4"></i>
+                        <h3 class="text-xl font-bold mb-3">Phone Support</h3>
+                        <p class="mb-4">1-800-RICH-CA (1-800-742-4222)</p>
+                        <p class="text-sm text-gray-400">Available 24/7</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Other Promotions -->
+    <section class="py-20 bg-gradient-to-b from-casino-deep-green to-casino-green">
+        <div class="container mx-auto px-4">
+            <h2 class="section-title text-center mb-16 text-casino-yellow">Current Promotions</h2>
+            <div class="bg-white/95 rounded-2xl p-8 shadow-2xl">
+                <div class="grid md:grid-cols-3 gap-8">
+                    <div class="promo-card">
+                        <div class="promo-icon">
+                            <i class="fas fa-calendar-week text-3xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-3 text-casino-emerald">Weekend Warriors</h3>
+                        <p class="mb-4">Get 50% bonus on weekend deposits plus 25 free spins on selected slots</p>
+                        <button onclick="redirectToGo()" class="promo-btn">Claim Now</button>
+                    </div>
+                    <div class="promo-card">
+                        <div class="promo-icon">
+                            <i class="fas fa-trophy text-3xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-3 text-casino-emerald">Slot Tournament</h3>
+                        <p class="mb-4">Compete for C$10,000 prize pool in monthly slot tournaments</p>
+                        <button onclick="redirectToGo()" class="promo-btn">Join Tournament</button>
+                    </div>
+                    <div class="promo-card">
+                        <div class="promo-icon">
+                            <i class="fas fa-users text-3xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-3 text-casino-emerald">Refer a Friend</h3>
+                        <p class="mb-4">Earn C$50 bonus for each friend you refer who makes a deposit</p>
+                    <button onclick="redirectToGo()" class="promo-btn">Refer Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Special Feature - Bonus Crab -->
+    <section class="py-20 bg-gradient-to-b from-casino-deep-green to-casino-green">
+        <div class="container mx-auto px-4">
+            <div class="bg-white/95 rounded-2xl p-8 shadow-2xl">
+                <div class="max-w-4xl mx-auto text-center">
+                    <h2 class="section-title mb-8 text-casino-yellow">Bonus Crab Feature</h2>
+                    <div class="grid md:grid-cols-2 gap-12 items-center">
+                        <div>
+                            <img src="/images/bonus-crab.webp" alt="Bonus Crab Feature" class="rounded-xl shadow-2xl mx-auto">
+                        </div>
+                        <div class="text-left text-blue-800">
+                            <h3 class="text-2xl font-bold mb-4 text-casino-emerald">Catch the Bonus Crab!</h3>
+                            <p class="text-lg mb-6">
+                                Experience the unique Bonus Crab feature exclusive to RichGringo Casino. This innovative game mechanic appears randomly during slot play, offering players the chance to catch additional bonuses, multipliers, and free spins.
+                            </p>
+                            <p class="text-lg mb-6">
+                                When the Bonus Crab appears, players can click to reveal instant prizes ranging from bonus cash to progressive jackpot entries. The feature adds an extra layer of excitement to regular gameplay.
+                            </p>
+                            <button onclick="redirectToGo()" class="cta-button">
+                                <i class="fas fa-play mr-2"></i>Try Bonus Crab
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trust Badges -->
+    <section class="py-20 bg-gradient-to-b from-casino-deep-green to-casino-green">
+        <div class="container mx-auto px-4">
+            <h2 class="section-title text-center mb-16 text-casino-yellow">Licensed & Trusted</h2>
+            <div class="bg-white/95 rounded-2xl p-8 shadow-2xl">
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center text-blue-800">
+                    <div class="trust-badge">
+                        <i class="fas fa-certificate text-4xl text-casino-emerald mb-3"></i>
+                        <p class="font-semibold">Gaming License</p>
+                        <p class="text-sm text-gray-400">Canadian Authority</p>
+                    </div>
+                    <div class="trust-badge">
+                        <i class="fas fa-shield-alt text-4xl text-casino-emerald mb-3"></i>
+                        <p class="font-semibold">SSL Secured</p>
+                        <p class="text-sm text-gray-400">256-bit Encryption</p>
+                    </div>
+                    <div class="trust-badge">
+                        <i class="fas fa-check-circle text-4xl text-casino-emerald mb-3"></i>
+                        <p class="font-semibold">Fair Gaming</p>
+                        <p class="text-sm text-gray-400">RNG Certified</p>
+                    </div>
+                    <div class="trust-badge">
+                        <i class="fas fa-user-shield text-4xl text-casino-emerald mb-3"></i>
+                        <p class="font-semibold">Responsible Gaming</p>
+                        <p class="text-sm text-gray-400">Player Protection</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="py-20 bg-gradient-to-b from-casino-deep-green to-casino-green">
+        <div class="container mx-auto px-4">
+            <h2 class="section-title text-center mb-16 text-casino-yellow">Frequently Asked Questions</h2>
+            <div class="bg-white/95 rounded-2xl p-8 shadow-2xl">
+                <div class="max-w-3xl mx-auto">
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>How do I claim the welcome bonus?</h3>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Create an account, make your first deposit, and the 250% bonus plus 150 free spins will be automatically credited to your account. The bonus must be wagered 35 times within 10 days.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>What payment methods are accepted?</h3>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>We accept Visa, Mastercard, Interac e-Transfer, PaySafeCard, Bitcoin, and bank transfers. All transactions are processed securely with instant deposits and fast withdrawals.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>How long do withdrawals take?</h3>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Withdrawal times vary by method: Interac e-Transfer (24 hours), Bitcoin (1-2 hours), Bank Transfer (1-3 days), and Cheque (7-14 days). All withdrawals are processed securely.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>Is RichGringo Casino licensed?</h3>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Yes, RichGringo Casino is fully licensed and regulated by Canadian gaming authorities. We maintain strict compliance with all regulatory requirements and undergo regular audits.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-casino-deep-green border-t border-casino-yellow/20 py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4 text-casino-emerald">RichGringo Casino</h3>
+                    <p class="text-gray-400 mb-4">Premium Canadian online casino with exclusive bonuses and top-tier gaming experience.</p>
+                    <div class="flex space-x-4">
+                        <i class="fab fa-facebook text-casino-emerald hover:text-white cursor-pointer"></i>
+                        <i class="fab fa-twitter text-casino-emerald hover:text-white cursor-pointer"></i>
+                        <i class="fab fa-instagram text-casino-emerald hover:text-white cursor-pointer"></i>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-4">Quick Links</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="#games" class="hover:text-white">Games</a></li>
+                        <li><a href="#bonuses" class="hover:text-white">Bonuses</a></li>
+                        <li><a href="#about" class="hover:text-white">About</a></li>
+                        <li><a href="#support" class="hover:text-white">Support</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-4">Support</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li>Live Chat: 24/7</li>
+                        <li>Email: support@richgringo.ca.com</li>
+                        <li>Phone: 1-800-RICH-CA</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-4">Responsible Gaming</h4>
+                    <div class="text-gray-400 space-y-2">
+                        <p><i class="fas fa-exclamation-triangle text-casino-gold mr-2"></i>18+ Only</p>
+                        <p>Problem Gambling Help:</p>
+                        <p>1-866-531-2600</p>
+                        <p>gamblersanonymous.ca</p>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-casino-yellow/20 mt-8 pt-8 text-center text-gray-400">
+                <p>&copy; 2024 RichGringo Casino. All rights reserved. | Terms & Conditions | Privacy Policy | Responsible Gaming</p>
+                <p class="mt-2 text-sm">Gambling can be addictive. Please play responsibly. 18+</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        // Redirect function
+        function redirectToGo() {
+            window.location.href = '/go';
+        }
+
+        // Smooth scrolling
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // FAQ Toggle
+        document.querySelectorAll('.faq-question').forEach(question => {
+            question.addEventListener('click', () => {
+                const faqItem = question.parentElement;
+                const answer = faqItem.querySelector('.faq-answer');
+                const icon = question.querySelector('i');
+                
+                faqItem.classList.toggle('active');
+                
+                if (faqItem.classList.contains('active')) {
+                    answer.style.maxHeight = answer.scrollHeight + 'px';
+                    icon.style.transform = 'rotate(180deg)';
+                } else {
+                    answer.style.maxHeight = '0';
+                    icon.style.transform = 'rotate(0deg)';
+                }
+            });
+        });
+
+        // Parallax effect
+        window.addEventListener('scroll', () => {
+            const scrolled = window.pageYOffset;
+            const parallax = document.querySelector('.spotlight');
+            if (parallax) {
+                const speed = scrolled * 0.5;
+                parallax.style.transform = `translateY(${speed}px)`;
+            }
+        });
+    </script>
+</body>
+</html>
