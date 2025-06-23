@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ - RichGringo Casino | Frequently Asked Questions</title>
+    <meta name="description" content="Find answers to frequently asked questions about RichGringo Casino including deposits, withdrawals, bonuses, KYC verification, and mobile gaming.">
+    
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="FAQ - RichGringo Casino">
+    <meta property="og:description" content="Get answers to all your questions about deposits, withdrawals, bonuses, and more at RichGringo Casino.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://richgringo.ca.com/faq">
+    <meta property="og:image" content="/images/hero.png">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="/images/favicon.png">
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="inner-pages.css">
+    
+    <!-- Tailwind Config -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'casino-green': '#0D4F3C',
+                        'casino-deep-green': '#064E3B',
+                        'casino-emerald': '#10B981',
+                        'casino-yellow': '#FCD34D',
+                        'casino-gold': '#F59E0B',
+                        'casino-red': '#EF4444',
+                        'casino-blue': '#1E3A8A',
+                        'mexican-pink': '#EC4899',
+                        'mexican-orange': '#F97316',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-casino-deep-green text-white overflow-x-hidden">
+    <!-- Floating Elements -->
+    <div class="floating-elements">
+        <div class="floating-card"><i class="fas fa-spades"></i></div>
+        <div class="floating-chip">C$</div>
+        <div class="floating-dice"><i class="fas fa-dice"></i></div>
+        <div class="floating-cactus"><i class="fas fa-seedling"></i></div>
+        <div class="floating-sun"><i class="fas fa-sun"></i></div>
+        <div class="floating-card-2"><i class="fas fa-heart"></i></div>
+        <div class="floating-confetti">✨</div>
+        <div class="floating-chip-2">🎰</div>
+        <div class="floating-piñata">🪅</div>
+        <div class="floating-pepper">🌶️</div>
+        <div class="floating-maracas">🪇</div>
+        <div class="floating-sombrero">🤠</div>
+        <div class="floating-guitar">🎸</div>
+        <div class="floating-taco">🌮</div>
+        <div class="floating-lime">🍋</div>
+        <div class="floating-avocado">🥑</div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="fixed top-0 w-full bg-casino-deep-green/95 backdrop-blur-sm z-50 border-b border-casino-yellow/20">
+        <div class="container mx-auto px-4 py-3">
+            <div class="flex items-center justify-between">
+                <div class="logo-glow">
+                    <a href="/">
+                        <img class="h-16" src="images/logo.svg" alt="Richgringo logo" />
+                    </a>
+                </div>
+                <div class="hidden md:flex space-x-6">
+                    <a href="/" class="nav-link">Home</a>
+                    <a href="#games" class="nav-link">Games</a>
+                    <a href="#bonuses" class="nav-link">Bonuses</a>
+                    <a href="/about" class="nav-link">About</a>
+                    <a href="/faq" class="nav-link text-casino-yellow">FAQ</a>
+                    <a href="#support" class="nav-link">Support</a>
+                </div>
+                <button onclick="redirectToGo()" class="cta-button-small">Join Now</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="mt-12 py-20 bg-gradient-to-br from-casino-deep-green via-casino-green to-emerald-800">
+        <div class="container mx-auto px-4">
+            <div class="text-center">
+                <h1 class="hero-title text-4xl md:text-6xl font-bold mb-6">
+                    <span class="glow-text">Frequently Asked Questions</span>
+                </h1>
+                <p class="text-xl text-green-100 mb-8 max-w-3xl mx-auto">
+                    Find answers to the most common questions about <a style="color: #fff; text-decoration: underline;" href="/">RichGringo</a> Casino, including deposits, withdrawals, bonuses, and more.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Categories -->
+    <section class="py-20 bg-gradient-to-b from-casino-deep-green to-casino-green">
+        <div class="container mx-auto px-4">
+            <div class="bg-white/95 rounded-2xl p-8 shadow-2xl">
+                <div class="max-w-4xl mx-auto">
+                    
+                    <!-- Deposits & Withdrawals -->
+                    <div class="faq-category mb-12">
+                        <h2 class="faq-category-title">💰 Deposits & Withdrawals</h2>
+                        
+                        <div class="faq-item">
+                            <div class="faq-question">
+                                <h3>What are the minimum and maximum deposit amounts?</h3>
+                                <i class="fas fa-chevron-down"></i>
+                            </div>
+                            <div class="faq-answer">
+                                <p>Minimum deposits vary by payment method: Credit/Debit cards C$10, Interac e-Transfer C$20, Bitcoin C$25. Maximum deposits range from C$1,000 (PaySafeCard) to C$10,000 (Bitcoin). Most methods have a C$5,000 maximum per transaction.</p>
+                            </div>
+                        </div>
+
+                        <div class="faq-item">
+                            <div class="faq-question">
+                                <h3>How long do withdrawals take to process?</h3>
+                                <i class="fas fa-chevron-down"></i>
+                            </div>
+                            <div class="faq-answer">
+                                <p>Withdrawal processing times depend on your chosen method: Interac e-Transfer (24 hours), Bitcoin (1-2 hours), Bank Transfer (1-3 business days), and Cheque (7-14 business days). All withdrawals are subject to our standard verification process.</p>
+                            </div>
+                        </div>
+
+                        <div class="faq-item">
+                            <div class="faq-question">
+                                <h3>Are there any fees for deposits or withdrawals?</h3>
+                                <i class="fas fa-chevron-down"></i>
+                            </div>
+                            <div class="faq-answer">
+                                <p>RichGringo Casino does not charge fees for deposits or withdrawals. However, your payment provider (bank, credit card company, or cryptocurrency exchange) may apply their own fees. We recommend checking with your payment provider for their fee structure.</p>
+                            </div>
+                        </div>
+
+                        <div class="faq-item">
+                            <div class="faq-question">
+                                <h3>What payment methods do you accept?</h3>
+                                <i class="fas fa-chevron-down"></i>
+                            </div>
+                            <div class="faq-answer">
+                                <p>We accept Visa, Mastercard, Interac e-Transfer, PaySafeCard, Bitcoin, and bank transfers. All transactions are processed securely using 256-bit SSL encryption to protect your financial information.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Bonuses & Promotions -->
+                    <div class="faq-category mb-12">
+                        <h2 class="faq-category-title">🎁 Bonuses & Promotions</h2>
+                        
+                        <div class="faq-item">
+                            <div class="faq-question">
+                                <h3>How do I claim the welcome bonus?</h3>
+                                <i class="fas fa-chevron-down"></i>
+                            </div>
+                            <div class="faq-answer">
+                                <p>Simply create your account and make your first deposit. The 250% welcome bonus up to C$1,700 plus 150 free spins on Mummyland Treasurehunt will be automatically credited to your account. No bonus code is required.</p>
+                            </div>
+                        </div>
+
+                        <div class="faq-item">
+                            <div class="faq-question">
+                                <h3>What are wagering requirements?</h3>
+                                <i class="fas fa-chevron-down"></i>
+                            </div>
+                            <div class="faq-answer">
+                                <p>Wagering requirements specify how many times you must play through your bonus before you can withdraw winnings. Our welcome bonus has a 35x wagering requirement, meaning you must wager 35 times the bonus amount. For example, a C$100 bonus requires C$3,500 in total wagers.</p>
+                            </div>
+                        </div>
+
+                        <div class="faq-item">
+                            <div class="faq-question">
+                                <h3>Do free spins have wagering requirements?</h3>
+                                <i class="fas fa-chevron-down"></i>
+                            </div>
+                            <div class="faq-answer">
+                                <p>Yes, free spin winnings have a 40x wagering requirement and must be wagered within 7 days. The maximum bet while wagering free spin winnings is C$5 per spin. Any unused free spins expire after 7 days.</p>
+                            </div>
+                        </div>
+
+                        <div class="faq-item">
+                            <div class="faq-question">
+                                <h3>How does the weekly cashback work?</h3>
+                                <i class="fas fa-chevron-down"></i>
+                            </div>
+                            <div class="faq-answer">
+                                <p>Our weekly cashback gives you up to 15% back on your net losses each week. Cashback is calculated every Monday for the previous week's activity and credited automatically. Cashback has only 1x wagering requirement and no maximum bet restrictions.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Account & Verification -->
+                    <div class="faq-category mb-12">
+                        <h2 class="faq-category-title">🔐 Account & KYC Verification</h2>
+                        
+                        <div class="faq-item">
+                            <div class="faq-question">
+                                <h3>What is KYC verification and why is it required?</h3>
+                                <i class="fas fa-chevron-down"></i>
+                            </div>
+                            <div class="faq-answer">
+                                <p>KYC (Know Your Customer) verification is a legal requirement to prevent fraud and money laundering. We need to verify your identity, address, and payment methods before processing withdrawals. This protects both you and the casino from fraudulent activities.</p>
+                            </div>
+                        </div>
+
+                        <div class="faq-item">
+                            <div class="faq-question">
+                                <h3>What documents do I need for verification?</h3>
+                                <i class="fas fa-chevron-down"></i>
+                            </div>
+                            <div class="faq-answer">
+                                <p>You'll need: 1) Government-issued photo ID (passport, driver's license, or provincial ID), 2) Proof of address (utility bill, bank statement, or government correspondence dated within 3 months), 3) Proof of payment method (bank statement or card photo showing first 6 and last 4 digits).</p>
+                            </div>
+                        </div>
+
+                        <div class="faq-item">
+                            <div class="faq-question">
+                                <h3>How long does verification take?</h3>
+                                <i class="fas fa-chevron-down"></i>
+                            </div>
+                            <div class="faq-answer">
+                                <p>Document verification typically takes 24-72 hours once all required documents are submitted. You'll receive email confirmation when your account is fully verified. During peak periods, verification may take up to 5 business days.</p>
+                            </div>
+                        </div>
+
+                        <div class="faq-item">
+                            <div class="faq-question">
+                                <h3>Can I play before my account is verified?</h3>
+                                <i class="fas fa-chevron-down"></i>
+                            </div>
+                            <div class="faq-answer">
+                                <p>Yes, you can play and make deposits before verification. However, withdrawals require a fully verified account. We recommend completing verification as soon as possible to avoid delays when you want to withdraw your winnings.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Mobile Gaming -->
+                    <div class="faq-category mb-12">
+                        <h2 class="faq-category-title">📱 Mobile Gaming</h2>
+                        
+                        <div class="faq-item">
+                            <div class="faq-question">
+                                <h3>Do you have a mobile app?</h3>
+                                <i class="fas fa-chevron-down"></i>
+                            </div>
+                            <div class="faq-answer">
+                                <p>RichGringo Casino is fully optimized for mobile browsers on iOS and Android devices. While we don't have a downloadable app, our mobile website provides the same features and games as the desktop version with touch-optimized controls.</p>
+                            </div>
+                        </div>
+
+                        <div class="faq-item">
+                            <div class="faq-question">
+                                <h3>Can I claim bonuses on mobile?</h3>
+                                <i class="fas fa-chevron-down"></i>
+                            </div>
+                            <div class="faq-answer">
+                                <p>All bonuses and promotions are available on mobile devices. You can claim the welcome bonus, participate in tournaments, and access all promotional offers directly from your smartphone or tablet.</p>
+                            </div>
+                        </div>
+
+                        <div class="faq-item">
+                            <div class="faq-question">
+                                <h3>Are all games available on mobile?</h3>
+                                <i class="fas fa-chevron-down"></i>
+                            </div>
+                            <div class="faq-answer">
+                                <p>Most of our games are mobile-compatible, including slots, live dealer games, and table games. A small number of older games may only be available on desktop. All new games are developed with mobile-first design principles.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Technical Support -->
+                    <div class="faq-category mb-12">
+                        <h2 class="faq-category-title">🛠️ Technical Support</h2>
+                        
+                        <div class="faq-item">
+                            <div class="faq-question">
+                                <h3>How can I contact customer support?</h3>
+                                <i class="fas fa-chevron-down"></i>
+                            </div>
+                            <div class="faq-answer">
+                                <p>We offer 24/7 support through: Live Chat (instant response), Email (support@richgringo.ca.com - 2 hour response time), and Phone (1-800-RICH-CA). Live chat is the fastest way to get help with urgent issues.</p>
+                            </div>
+                        </div>
+
+                        <div class="faq-item">
+                            <div class="faq-question">
+                                <h3>What should I do if a game freezes or crashes?</h3>
+                                <i class="fas fa-chevron-down"></i>
+                            </div>
+                            <div class="faq-answer">
+                                <p>First, refresh your browser or restart the app. If the issue persists, clear your browser cache and cookies. Contact support immediately if you were in the middle of a game round - we can check your game history and ensure any winnings are properly credited.</p>
+                            </div>
+                        </div>
+
+                        <div class="faq-item">
+                            <div class="faq-question">
+                                <h3>Why can't I access certain games?</h3>
+                                <i class="fas fa-chevron-down"></i>
+                            </div>
+                            <div class="faq-answer">
+                                <p>Game availability may be restricted due to: 1) Regional licensing requirements, 2) Maintenance or updates, 3) Insufficient account balance, 4) Bonus restrictions, or 5) Browser compatibility issues. Contact support for specific game access issues.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Security & Safety -->
+                    <div class="faq-category">
+                        <h2 class="faq-category-title">🔒 Security & Safety</h2>
+                        
+                        <div class="faq-item">
+                            <div class="faq-question">
+                                <h3>Is RichGringo Casino safe and licensed?</h3>
+                                <i class="fas fa-chevron-down"></i>
+                            </div>
+                            <div class="faq-answer">
+                                <p>Yes, RichGringo Casino is fully licensed and regulated by Canadian gaming authorities. We use 256-bit SSL encryption, certified random number generators, and undergo regular third-party audits to ensure fair play and security.</p>
+                            </div>
+                        </div>
+
+                        <div class="faq-item">
+                            <div class="faq-question">
+                                <h3>How do you protect my personal information?</h3>
+                                <i class="fas fa-chevron-down"></i>
+                            </div>
+                            <div class="faq-answer">
+                                <p>We use bank-level security measures including SSL encryption, secure servers, and strict data protection protocols. Your personal and financial information is never shared with third parties except as required by law or for payment processing.</p>
+                            </div>
+                        </div>
+
+                        <div class="faq-item">
+                            <div class="faq-question">
+                                <h3>What responsible gaming tools do you offer?</h3>
+                                <i class="fas fa-chevron-down"></i>
+                            </div>
+                            <div class="faq-answer">
+                                <p>We provide deposit limits, session time limits, loss limits, cooling-off periods, and self-exclusion options. You can set these limits in your account settings or contact support for assistance. We also provide links to problem gambling resources and support organizations.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Support CTA -->
+    <section class="py-20 bg-gradient-to-b from-casino-deep-green to-casino-green">
+        <div class="container mx-auto px-4">
+            <div class="bg-white/95 rounded-2xl p-8 shadow-2xl text-center">
+                <h2 class="section-title mb-6 text-casino-yellow">Still Have Questions?</h2>
+                <p class="text-lg text-casino-blue mb-8 max-w-2xl mx-auto">
+                    Can't find the answer you're looking for? Our friendly support team is available 24/7 to help you with any questions or concerns.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                    <button onclick="redirectToGo()" class="cta-button">
+                        <i class="fas fa-comments mr-2"></i>Start Live Chat
+                    </button>
+                    <button onclick="redirectToGo()" class="cta-button-secondary">
+                        <i class="fas fa-envelope mr-2"></i>Send Email
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-casino-deep-green border-t border-casino-yellow/20 py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4 text-casino-emerald">RichGringo Casino</h3>
+                    <p class="text-gray-400 mb-4">Premium Canadian online casino with exclusive bonuses and top-tier gaming experience.</p>
+                    <div class="flex space-x-4">
+                        <i class="fab fa-facebook text-casino-emerald hover:text-white cursor-pointer"></i>
+                        <i class="fab fa-twitter text-casino-emerald hover:text-white cursor-pointer"></i>
+                        <i class="fab fa-instagram text-casino-emerald hover:text-white cursor-pointer"></i>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-4">Quick Links</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="#games" class="hover:text-white">Games</a></li>
+                        <li><a href="#bonuses" class="hover:text-white">Bonuses</a></li>
+                        <li><a href="#about" class="hover:text-white">About</a></li>
+                        <li><a href="#support" class="hover:text-white">Support</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-4">Support</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li>Live Chat: 24/7</li>
+                        <li>Email: support@richgringo.ca.com</li>
+                        <li>Phone: 1-800-RICH-CA</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-4">Responsible Gaming</h4>
+                    <div class="text-gray-400 space-y-2">
+                        <p><i class="fas fa-exclamation-triangle text-casino-gold mr-2"></i>18+ Only</p>
+                        <p>Problem Gambling Help:</p>
+                        <p>1-866-531-2600</p>
+                        <p>gamblersanonymous.ca</p>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-casino-yellow/20 mt-8 pt-8 text-center text-gray-400">
+                <p>&copy; 2024 RichGringo Casino. All rights reserved. | Terms & Conditions | Privacy Policy | Responsible Gaming</p>
+                <p class="mt-2 text-sm">Gambling can be addictive. Please play responsibly. 18+</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        // Redirect function
+        function redirectToGo() {
+            window.location.href = '/go';
+        }
+
+        // FAQ Toggle
+        document.querySelectorAll('.faq-question').forEach(question => {
+            question.addEventListener('click', () => {
+                const faqItem = question.parentElement;
+                const answer = faqItem.querySelector('.faq-answer');
+                const icon = question.querySelector('i');
+                
+                faqItem.classList.toggle('active');
+                
+                if (faqItem.classList.contains('active')) {
+                    answer.style.maxHeight = answer.scrollHeight + 'px';
+                    icon.style.transform = 'rotate(180deg)';
+                } else {
+                    answer.style.maxHeight = '0';
+                    icon.style.transform = 'rotate(0deg)';
+                }
+            });
+        });
+
+        // Smooth scrolling
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>

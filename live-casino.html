@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Casino Games - RichGringo Casino | Real Dealers & Game Shows</title>
+    <meta name="description" content="Experience authentic live casino games at RichGringo Casino. Play live blackjack, roulette, baccarat, and exciting game shows with professional dealers in real-time.">
+    
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="Live Casino Games - RichGringo Casino">
+    <meta property="og:description" content="Join live dealer games and exciting game shows at RichGringo Casino. Real dealers, real-time action, authentic casino experience.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://richgringo.ca.com/live-casino">
+    <meta property="og:image" content="/images/hero.png">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="/images/favicon.png">
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="inner-pages.css">
+    
+    <!-- Tailwind Config -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'casino-green': '#0D4F3C',
+                        'casino-deep-green': '#064E3B',
+                        'casino-emerald': '#10B981',
+                        'casino-yellow': '#FCD34D',
+                        'casino-gold': '#F59E0B',
+                        'casino-red': '#EF4444',
+                        'casino-blue': '#1E3A8A',
+                        'mexican-pink': '#EC4899',
+                        'mexican-orange': '#F97316',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-casino-deep-green text-white overflow-x-hidden">
+    <!-- Floating Elements -->
+    <div class="floating-elements">
+        <div class="floating-card"><i class="fas fa-spades"></i></div>
+        <div class="floating-chip">C$</div>
+        <div class="floating-dice"><i class="fas fa-dice"></i></div>
+        <div class="floating-cactus"><i class="fas fa-seedling"></i></div>
+        <div class="floating-sun"><i class="fas fa-sun"></i></div>
+        <div class="floating-card-2"><i class="fas fa-heart"></i></div>
+        <div class="floating-confetti">✨</div>
+        <div class="floating-chip-2">🎰</div>
+        <div class="floating-piñata">🪅</div>
+        <div class="floating-pepper">🌶️</div>
+        <div class="floating-maracas">🪇</div>
+        <div class="floating-sombrero">🤠</div>
+        <div class="floating-guitar">🎸</div>
+        <div class="floating-taco">🌮</div>
+        <div class="floating-lime">🍋</div>
+        <div class="floating-avocado">🥑</div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="fixed top-0 w-full bg-casino-deep-green/95 backdrop-blur-sm z-50 border-b border-casino-yellow/20">
+        <div class="container mx-auto px-4 py-3">
+            <div class="flex items-center justify-between">
+                <div class="logo-glow">
+                    <a href="/">
+                        <img class="h-16" src="images/logo.svg" alt="Richgringo logo" />
+                    </a>
+                </div>
+                <div class="hidden md:flex space-x-6">
+                    <a href="/" class="nav-link">Home</a>
+                    <a href="#games" class="nav-link">Games</a>
+                    <a href="#bonuses" class="nav-link">Bonuses</a>
+                    <a href="/about" class="nav-link">About</a>
+                    <a href="/faq" class="nav-link">FAQ</a>
+                    <a href="#support" class="nav-link">Support</a>
+                </div>
+                <button onclick="redirectToGo()" class="cta-button-small">Join Now</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="mt-12 py-20 bg-gradient-to-br from-casino-deep-green via-casino-green to-emerald-800">
+        <div class="container mx-auto px-4">
+            <div class="text-center">
+                <h1 class="hero-title text-4xl md:text-6xl font-bold mb-6">
+                    <span class="glow-text">Live Casino Games</span>
+                </h1>
+                <p class="text-xl text-green-100 mb-8 max-w-3xl mx-auto">
+                    Experience the thrill of real casino action with professional dealers streaming live from our studios. Play your favorite table games and exciting game shows in real-time.
+                </p>
+                <button onclick="redirectToGo()" class="cta-button">
+                    <i class="fas fa-play mr-2"></i>Play Live Now
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Live Table Games -->
+    <section class="py-20 bg-gradient-to-b from-casino-deep-green to-casino-green">
+        <div class="container mx-auto px-4">
+            <h2 class="section-title text-center mb-16 text-casino-yellow">Live Table Games</h2>
+            <div class="bg-white/95 rounded-2xl p-8 shadow-2xl">
+                <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+                    
+                    <div class="live-game-card">
+                        <div class="live-game-icon">
+                            <i class="fas fa-heart text-4xl"></i>
+                        </div>
+                        <h3 class="live-game-title">Live Blackjack</h3>
+                        <p class="live-game-desc">Classic 21 with professional dealers</p>
+                        <div class="live-game-info">
+                            <span class="bet-range">C$1 - C$5,000</span>
+                            <span class="live-indicator">🔴 LIVE</span>
+                        </div>
+                        <button onclick="redirectToGo()" class="live-play-btn">Play Now</button>
+                    </div>
+
+                    <div class="live-game-card">
+                        <div class="live-game-icon">
+                            <i class="fas fa-circle-notch text-4xl"></i>
+                        </div>
+                        <h3 class="live-game-title">Live Roulette</h3>
+                        <p class="live-game-desc">European & American variants</p>
+                        <div class="live-game-info">
+                            <span class="bet-range">C$0.50 - C$10,000</span>
+                            <span class="live-indicator">🔴 LIVE</span>
+                        </div>
+                        <button onclick="redirectToGo()" class="live-play-btn">Play Now</button>
+                    </div>
+
+                    <div class="live-game-card">
+                        <div class="live-game-icon">
+                            <i class="fas fa-diamond text-4xl"></i>
+                        </div>
+                        <h3 class="live-game-title">Live Baccarat</h3>
+                        <p class="live-game-desc">Punto Banco with side bets</p>
+                        <div class="live-game-info">
+                            <span class="bet-range">C$1 - C$15,000</span>
+                            <span class="live-indicator">🔴 LIVE</span>
+                        </div>
+                        <button onclick="redirectToGo()" class="live-play-btn">Play Now</button>
+                    </div>
+
+                    <div class="live-game-card">
+                        <div class="live-game-icon">
+                            <i class="fas fa-spades text-4xl"></i>
+                        </div>
+                        <h3 class="live-game-title">Live Poker</h3>
+                        <p class="live-game-desc">Caribbean Stud & Hold'em</p>
+                        <div class="live-game-info">
+                            <span class="bet-range">C$1 - C$2,500</span>
+                            <span class="live-indicator">🔴 LIVE</span>
+                        </div>
+                        <button onclick="redirectToGo()" class="live-play-btn">Play Now</button>
+                    </div>
+
+                    <div class="live-game-card">
+                        <div class="live-game-icon">
+                            <i class="fas fa-dice text-4xl"></i>
+                        </div>
+                        <h3 class="live-game-title">Live Craps</h3>
+                        <p class="live-game-desc">Authentic dice action</p>
+                        <div class="live-game-info">
+                            <span class="bet-range">C$1 - C$5,000</span>
+                            <span class="live-indicator">🔴 LIVE</span>
+                        </div>
+                        <button onclick="redirectToGo()" class="live-play-btn">Play Now</button>
+                    </div>
+
+                    <div class="live-game-card">
+                        <div class="live-game-icon">
+                            <i class="fas fa-coins text-4xl"></i>
+                        </div>
+                        <h3 class="live-game-title">Dragon Tiger</h3>
+                        <p class="live-game-desc">Simple & fast-paced</p>
+                        <div class="live-game-info">
+                            <span class="bet-range">C$1 - C$8,000</span>
+                            <span class="live-indicator">🔴 LIVE</span>
+                        </div>
+                        <button onclick="redirectToGo()" class="live-play-btn">Play Now</button>
+                    </div>
+
+                    <div class="live-game-card">
+                        <div class="live-game-icon">
+                            <i class="fas fa-gem text-4xl"></i>
+                        </div>
+                        <h3 class="live-game-title">Sic Bo</h3>
+                        <p class="live-game-desc">Ancient Chinese dice game</p>
+                        <div class="live-game-info">
+                            <span class="bet-range">C$1 - C$3,000</span>
+                            <span class="live-indicator">🔴 LIVE</span>
+                        </div>
+                        <button onclick="redirectToGo()" class="live-play-btn">Play Now</button>
+                    </div>
+
+                    <div class="live-game-card">
+                        <div class="live-game-icon">
+                            <i class="fas fa-star text-4xl"></i>
+                        </div>
+                        <h3 class="live-game-title">Teen Patti</h3>
+                        <p class="live-game-desc">Indian poker variant</p>
+                        <div class="live-game-info">
+                            <span class="bet-range">C$1 - C$2,000</span>
+                            <span class="live-indicator">🔴 LIVE</span>
+                        </div>
+                        <button onclick="redirectToGo()" class="live-play-btn">Play Now</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Game Shows Section -->
+    <section class="py-20 bg-gradient-to-b from-casino-deep-green to-casino-green">
+        <div class="container mx-auto px-4">
+            <h2 class="section-title text-center mb-16 text-casino-yellow">Live Game Shows</h2>
+            
+            <!-- Game Shows Description -->
+            <div class="bg-white/95 rounded-2xl p-8 shadow-2xl mb-12">
+                <div class="max-w-4xl mx-auto">
+                    <div class="content-card mb-8">
+                        <h3 class="text-2xl font-bold mb-6 text-casino-emerald">What Are Live Game Shows?</h3>
+                        <p class="text-lg leading-relaxed mb-6">
+                            Live game shows represent the evolution of online casino entertainment, combining the excitement of traditional casino games with the interactive format of television game shows. These innovative games feature charismatic hosts, stunning studio sets, and engaging gameplay mechanics that create an immersive entertainment experience unlike anything else in online gaming.
+                        </p>
+                        <p class="text-lg leading-relaxed mb-6">
+                            Each game show is broadcast live from professional studios with high-definition cameras, professional lighting, and interactive technology that allows players to participate in real-time. The games feature unique bonus rounds, multipliers, and special features that can lead to massive payouts, making every spin or round an exciting adventure.
+                        </p>
+                        <p class="text-lg leading-relaxed">
+                            What sets these games apart is their social aspect - players can chat with hosts and other participants, creating a community atmosphere that brings the excitement of a real game show directly to your screen. The combination of skill, luck, and entertainment value makes live game shows the perfect choice for players seeking something beyond traditional casino games.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Game Shows Grid -->
+            <div class="bg-white/95 rounded-2xl p-8 shadow-2xl">
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    
+                    <div class="gameshow-card">
+                        <div class="gameshow-icon">
+                            <i class="fas fa-candy-cane text-4xl"></i>
+                        </div>
+                        <h3 class="gameshow-title">Sweet Bonanza Candyland</h3>
+                        <p class="gameshow-desc">Spin the colorful wheel in this candy-themed adventure with multipliers up to 500x</p>
+                        <div class="gameshow-features">
+                            <span class="feature-tag">🍭 Candy Multipliers</span>
+                            <span class="feature-tag">🎡 Bonus Wheel</span>
+                            <span class="feature-tag">💰 Max Win: 21,100x</span>
+                        </div>
+                        <button onclick="redirectToGo()" class="gameshow-play-btn">Play Sweet Bonanza</button>
+                    </div>
+
+                    <div class="gameshow-card">
+                        <div class="gameshow-icon">
+                            <i class="fas fa-hat-wizard text-4xl"></i>
+                        </div>
+                        <h3 class="gameshow-title">Crazy Time</h3>
+                        <p class="gameshow-desc">The ultimate game show experience with 4 exciting bonus games and massive multipliers</p>
+                        <div class="gameshow-features">
+                            <span class="feature-tag">🎪 4 Bonus Games</span>
+                            <span class="feature-tag">🎯 Top Slot</span>
+                            <span class="feature-tag">💰 Max Win: 20,000x</span>
+                        </div>
+                        <button onclick="redirectToGo()" class="gameshow-play-btn">Play Crazy Time</button>
+                    </div>
+
+                    <div class="gameshow-card">
+                        <div class="gameshow-icon">
+                            <i class="fas fa-crown text-4xl"></i>
+                        </div>
+                        <h3 class="gameshow-title">Monopoly Live</h3>
+                        <p class="gameshow-desc">Roll the dice in the 3D Monopoly world with Mr. Monopoly as your guide</p>
+                        <div class="gameshow-features">
+                            <span class="feature-tag">🎲 3D Board Game</span>
+                            <span class="feature-tag">🏠 Property Bonuses</span>
+                            <span class="feature-tag">💰 Max Win: 10,000x</span>
+                        </div>
+                        <button onclick="redirectToGo()" class="gameshow-play-btn">Play Monopoly Live</button>
+                    </div>
+
+                    <div class="gameshow-card">
+                        <div class="gameshow-icon">
+                            <i class="fas fa-rabbit text-4xl"></i>
+                        </div>
+                        <h3 class="gameshow-title">Adventures Beyond Wonderland</h3>
+                        <p class="gameshow-desc">Follow Alice down the rabbit hole for magical bonuses and tea party multipliers</p>
+                        <div class="gameshow-features">
+                            <span class="feature-tag">🐰 Alice's Adventures</span>
+                            <span class="feature-tag">🫖 Tea Party Bonus</span>
+                            <span class="feature-tag">💰 Max Win: 10,000x</span>
+                        </div>
+                        <button onclick="redirectToGo()" class="gameshow-play-btn">Play Wonderland</button>
+                    </div>
+
+                    <div class="gameshow-card">
+                        <div class="gameshow-icon">
+                            <i class="fas fa-football-ball text-4xl"></i>
+                        </div>
+                        <h3 class="gameshow-title">Football Studio</h3>
+                        <p class="gameshow-desc">Simple card game with football theme - predict Home, Away, or Draw</p>
+                        <div class="gameshow-features">
+                            <span class="feature-tag">⚽ Football Theme</span>
+                            <span class="feature-tag">🃏 Simple Rules</span>
+                            <span class="feature-tag">💰 RTP: 96.27%</span>
+                        </div>
+                        <button onclick="redirectToGo()" class="gameshow-play-btn">Play Football Studio</button>
+                    </div>
+
+                    <div class="gameshow-card">
+                        <div class="gameshow-icon">
+                            <i class="fas fa-money-bill-wave text-4xl"></i>
+                        </div>
+                        <h3 class="gameshow-title">Cash or Crash</h3>
+                        <p class="gameshow-desc">Climb the money ladder but watch out for the crash! Risk vs reward gameplay</p>
+                        <div class="gameshow-features">
+                            <span class="feature-tag">📈 Money Ladder</span>
+                            <span class="feature-tag">💥 Crash Risk</span>
+                            <span class="feature-tag">💰 Max Win: 50,000x</span>
+                        </div>
+                        <button onclick="redirectToGo()" class="gameshow-play-btn">Play Cash or Crash</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Live Casino Features -->
+    <section class="py-20 bg-gradient-to-b from-casino-deep-green to-casino-green">
+        <div class="container mx-auto px-4">
+            <h2 class="section-title text-center mb-16 text-casino-yellow">Why Choose Our Live Casino?</h2>
+            <div class="bg-white/95 rounded-2xl p-8 shadow-2xl">
+                <div class="grid md:grid-cols-3 gap-8">
+                    
+                    <div class="feature-card">
+                        <i class="fas fa-video text-4xl text-casino-emerald mb-4"></i>
+                        <h3 class="text-xl font-bold mb-3 text-casino-emerald">HD Streaming</h3>
+                        <p class="text-casino-blue">Crystal clear HD video streams with multiple camera angles for the best viewing experience</p>
+                    </div>
+
+                    <div class="feature-card">
+                        <i class="fas fa-user-tie text-4xl text-casino-emerald mb-4"></i>
+                        <h3 class="text-xl font-bold mb-3 text-casino-emerald">Professional Dealers</h3>
+                        <p class="text-casino-blue">Experienced, friendly dealers trained to provide authentic casino atmosphere</p>
+                    </div>
+
+                    <div class="feature-card">
+                        <i class="fas fa-comments text-4xl text-casino-emerald mb-4"></i>
+                        <h3 class="text-xl font-bold mb-3 text-casino-emerald">Live Chat</h3>
+                        <p class="text-casino-blue">Interact with dealers and other players through real-time chat functionality</p>
+                    </div>
+
+                    <div class="feature-card">
+                        <i class="fas fa-mobile-alt text-4xl text-casino-emerald mb-4"></i>
+                        <h3 class="text-xl font-bold mb-3 text-casino-emerald">Mobile Compatible</h3>
+                        <p class="text-casino-blue">Play live games on any device with optimized mobile interfaces</p>
+                    </div>
+
+                    <div class="feature-card">
+                        <i class="fas fa-clock text-4xl text-casino-emerald mb-4"></i>
+                        <h3 class="text-xl font-bold mb-3 text-casino-emerald">24/7 Availability</h3>
+                        <p class="text-casino-blue">Live games available around the clock with multiple tables and betting limits</p>
+                    </div>
+
+                    <div class="feature-card">
+                        <i class="fas fa-shield-alt text-4xl text-casino-emerald mb-4"></i>
+                        <h3 class="text-xl font-bold mb-3 text-casino-emerald">Fair & Secure</h3>
+                        <p class="text-casino-blue">All games are monitored and regulated to ensure fair play and security</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-20 bg-gradient-to-b from-casino-deep-green to-casino-green">
+        <div class="container mx-auto px-4">
+            <div class="bg-white/95 rounded-2xl p-8 shadow-2xl text-center">
+                <h2 class="section-title mb-6 text-casino-yellow">Ready to Experience Live Casino?</h2>
+                <p class="text-lg text-casino-blue mb-8 max-w-2xl mx-auto">
+                    Join thousands of players enjoying authentic casino action with professional dealers. Claim your welcome bonus and start playing live games today!
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                    <button onclick="redirectToGo()" class="cta-button">
+                        <i class="fas fa-play mr-2"></i>Play Live Games
+                    </button>
+                    <button onclick="redirectToGo()" class="cta-button-secondary">
+                        <i class="fas fa-gift mr-2"></i>Claim Bonus
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-casino-deep-green border-t border-casino-yellow/20 py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4 text-casino-emerald">RichGringo Casino</h3>
+                    <p class="text-gray-400 mb-4">Premium Canadian online casino with exclusive bonuses and top-tier gaming experience.</p>
+                    <div class="flex space-x-4">
+                        <i class="fab fa-facebook text-casino-emerald hover:text-white cursor-pointer"></i>
+                        <i class="fab fa-twitter text-casino-emerald hover:text-white cursor-pointer"></i>
+                        <i class="fab fa-instagram text-casino-emerald hover:text-white cursor-pointer"></i>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-4">Quick Links</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="#games" class="hover:text-white">Games</a></li>
+                        <li><a href="#bonuses" class="hover:text-white">Bonuses</a></li>
+                        <li><a href="#about" class="hover:text-white">About</a></li>
+                        <li><a href="#support" class="hover:text-white">Support</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-4">Support</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li>Live Chat: 24/7</li>
+                        <li>Email: support@richgringo.ca.com</li>
+                        <li>Phone: 1-800-RICH-CA</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-4">Responsible Gaming</h4>
+                    <div class="text-gray-400 space-y-2">
+                        <p><i class="fas fa-exclamation-triangle text-casino-gold mr-2"></i>18+ Only</p>
+                        <p>Problem Gambling Help:</p>
+                        <p>1-866-531-2600</p>
+                        <p>gamblersanonymous.ca</p>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-casino-yellow/20 mt-8 pt-8 text-center text-gray-400">
+                <p>&copy; 2024 RichGringo Casino. All rights reserved. | Terms & Conditions | Privacy Policy | Responsible Gaming</p>
+                <p class="mt-2 text-sm">Gambling can be addictive. Please play responsibly. 18+</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        // Redirect function
+        function redirectToGo() {
+            window.location.href = '/go';
+        }
+
+        // Smooth scrolling
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>

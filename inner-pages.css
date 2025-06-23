@@ -1,0 +1,351 @@
+/* Additional styles for inner pages */
+
+/* FAQ Specific Styles */
+.faq-category {
+  margin-bottom: 3rem;
+}
+
+.faq-category-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #10b981;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #fcd34d;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.faq-item {
+  background: rgba(255, 255, 255, 0.95);
+  color: #1e3a8a;
+  border-radius: 12px;
+  margin-bottom: 1rem;
+  border: 2px solid #fcd34d;
+  backdrop-filter: blur(10px);
+  overflow: hidden;
+  transition: all 0.3s ease;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.faq-item:hover {
+  border-color: #f59e0b;
+  box-shadow: 0 15px 35px rgba(252, 211, 77, 0.3);
+}
+
+.faq-question {
+  padding: 1.5rem;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.faq-question:hover {
+  background: rgba(252, 211, 77, 0.2);
+  color: #1e3a8a;
+}
+
+.faq-question h3 {
+  margin: 0;
+  flex: 1;
+  font-size: 1.1rem;
+}
+
+.faq-question i {
+  transition: transform 0.3s ease;
+  color: #f59e0b;
+  font-size: 1.2rem;
+}
+
+.faq-answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+  padding: 0 1.5rem;
+}
+
+.faq-item.active .faq-answer {
+  padding: 0 1.5rem 1.5rem 1.5rem;
+}
+
+.faq-answer p {
+  line-height: 1.6;
+  color: #374151;
+}
+
+/* Live Casino Specific Styles */
+.live-game-card {
+  background: rgba(255, 255, 255, 0.95);
+  color: #1e3a8a;
+  padding: 1.5rem;
+  border-radius: 12px;
+  text-align: center;
+  transition: all 0.3s ease;
+  border: 2px solid #fcd34d;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  animation: cardSlideUp 0.6s ease-out;
+  animation-fill-mode: both;
+}
+
+.live-game-card:nth-child(1) { animation-delay: 0.1s; }
+.live-game-card:nth-child(2) { animation-delay: 0.2s; }
+.live-game-card:nth-child(3) { animation-delay: 0.3s; }
+.live-game-card:nth-child(4) { animation-delay: 0.4s; }
+.live-game-card:nth-child(5) { animation-delay: 0.5s; }
+.live-game-card:nth-child(6) { animation-delay: 0.6s; }
+.live-game-card:nth-child(7) { animation-delay: 0.7s; }
+.live-game-card:nth-child(8) { animation-delay: 0.8s; }
+
+.live-game-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 40px rgba(252, 211, 77, 0.3);
+  border-color: #f59e0b;
+}
+
+.live-game-icon {
+  color: #f59e0b;
+  margin-bottom: 1rem;
+  animation: iconPulse 2s ease-in-out infinite;
+}
+
+.live-game-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: #10b981;
+}
+
+.live-game-desc {
+  font-size: 0.9rem;
+  color: #6b7280;
+  margin-bottom: 1rem;
+}
+
+.live-game-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  font-size: 0.8rem;
+}
+
+.bet-range {
+  background: #e5f3ff;
+  color: #1e3a8a;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.live-indicator {
+  background: #fee2e2;
+  color: #dc2626;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  font-weight: bold;
+  animation: livePulse 2s ease-in-out infinite;
+}
+
+.live-play-btn {
+  background: linear-gradient(45deg, #fcd34d, #f59e0b);
+  color: #1e3a8a;
+  padding: 10px 20px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  width: 100%;
+}
+
+.live-play-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(252, 211, 77, 0.5);
+  background: linear-gradient(45deg, #f59e0b, #d97706);
+  color: white;
+}
+
+/* Game Show Styles */
+.gameshow-card {
+  background: rgba(255, 255, 255, 0.95);
+  color: #1e3a8a;
+  padding: 2rem;
+  border-radius: 12px;
+  text-align: center;
+  transition: all 0.3s ease;
+  border: 2px solid #fcd34d;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  animation: cardSlideUp 0.8s ease-out;
+  animation-fill-mode: both;
+}
+
+.gameshow-card:nth-child(1) { animation-delay: 0.1s; }
+.gameshow-card:nth-child(2) { animation-delay: 0.2s; }
+.gameshow-card:nth-child(3) { animation-delay: 0.3s; }
+.gameshow-card:nth-child(4) { animation-delay: 0.4s; }
+.gameshow-card:nth-child(5) { animation-delay: 0.5s; }
+.gameshow-card:nth-child(6) { animation-delay: 0.6s; }
+
+.gameshow-card:hover {
+  transform: translateY(-10px) scale(1.02);
+  box-shadow: 0 20px 40px rgba(252, 211, 77, 0.4);
+  border-color: #f59e0b;
+}
+
+.gameshow-icon {
+  color: #f59e0b;
+  margin-bottom: 1rem;
+  animation: iconBounce 3s ease-in-out infinite;
+}
+
+.gameshow-title {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #10b981;
+}
+
+.gameshow-desc {
+  color: #6b7280;
+  margin-bottom: 1.5rem;
+  line-height: 1.5;
+}
+
+.gameshow-features {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.feature-tag {
+  background: linear-gradient(45deg, #e5f3ff, #dbeafe);
+  color: #1e3a8a;
+  padding: 0.4rem 0.8rem;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  border: 1px solid #93c5fd;
+}
+
+.gameshow-play-btn {
+  background: linear-gradient(45deg, #fcd34d, #f59e0b);
+  color: #1e3a8a;
+  padding: 12px 24px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  width: 100%;
+  font-size: 1rem;
+}
+
+.gameshow-play-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 20px rgba(252, 211, 77, 0.5);
+  background: linear-gradient(45deg, #f59e0b, #d97706);
+  color: white;
+}
+
+/* Feature Cards */
+.feature-card {
+  background: rgba(255, 255, 255, 0.95);
+  color: #1e3a8a;
+  padding: 2rem;
+  border-radius: 12px;
+  text-align: center;
+  transition: all 0.3s ease;
+  border: 2px solid #fcd34d;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.feature-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 40px rgba(252, 211, 77, 0.3);
+  border-color: #f59e0b;
+}
+
+/* Animations */
+@keyframes livePulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.7;
+  }
+}
+
+@keyframes iconBounce {
+  0%, 100% {
+    transform: translateY(0) rotate(0deg);
+  }
+  25% {
+    transform: translateY(-5px) rotate(5deg);
+  }
+  50% {
+    transform: translateY(-10px) rotate(0deg);
+  }
+  75% {
+    transform: translateY(-5px) rotate(-5deg);
+  }
+}
+
+/* Responsive Design for Inner Pages */
+@media (max-width: 768px) {
+  .faq-category-title {
+    font-size: 1.5rem;
+  }
+  
+  .faq-question h3 {
+    font-size: 1rem;
+  }
+  
+  .live-game-card,
+  .gameshow-card {
+    padding: 1.5rem;
+  }
+  
+  .gameshow-features {
+    align-items: center;
+  }
+  
+  .feature-tag {
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .faq-question {
+    padding: 1rem;
+  }
+  
+  .faq-answer {
+    padding: 0 1rem;
+  }
+  
+  .faq-item.active .faq-answer {
+    padding: 0 1rem 1rem 1rem;
+  }
+  
+  .live-game-card,
+  .gameshow-card,
+  .feature-card {
+    padding: 1rem;
+  }
+  
+  .gameshow-title {
+    font-size: 1.1rem;
+  }
+  
+  .live-game-title {
+    font-size: 1rem;
+  }
+}
